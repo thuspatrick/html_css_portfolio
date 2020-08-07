@@ -1,0 +1,51 @@
+body{
+    background-color: aquamarine;
+}
+#profile{
+    background-color: #cf455c;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    overflow: hidden;
+
+}
+
+.about{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 490px;
+}
+.about .photo-inner{
+    float: left;
+    width: 214px;
+    height: 214px;
+    padding: 12px 0 0 19px;
+}
+.about h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: azure;
+    /* line-height: 34px; */
+    margin-top: 8px;
+    margin-left: -20px;
+}
+.about h3{
+    font-size: 18px;
+    color: azure;
+    line-height: 18px;
+    margin-top: 5px;
+    font-family: montserrat, sans-serif;
+}
+.personal-info{
+    float: left;
+    width: 310px;
+    color: azure;
+    min-height: 230px;
+    margin-left: 10px;
+    padding: 20px 0 19px 20px;
+}
+.photo-inner img{
+    width: 200px;
+    height: 240px;
+    border-radius: 15px;
+}
